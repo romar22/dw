@@ -1,0 +1,26 @@
+
+$univers-font: 'Univers Next';
+$hanken-font: 'Hanken Grotesk';
+
+
+/* THEME COLORS
+ */
+
+$background-color   : #FAF7F1;
+
+$primary            : #459770;
+$light              : #fff;
+$dark               : #1F1F1F;
+
+
+$container-max-widths: (
+    xs: 440px,
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px
+);
+
+// bootstrap settings
+$enable-container-classes: false;

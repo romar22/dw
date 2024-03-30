@@ -1,0 +1,8 @@
+
+@each $breakpoint, $container-max-width in $container-max-widths {
+  .container-#{$breakpoint} {
+    width: 90%;
+    margin: 0 auto;
+    max-width: $container-max-width;
+  }
+}

@@ -1,0 +1,10 @@
+$univers-font-list: (
+    (400, 'UniversNextProRegular'),
+);
+@include set-font-face($univers-font-list, $univers-font, '/fonts/univers-next-pro');
+
+$hanken-font-list: (
+    (300, 'HankenGrotesk-Light'),
+    (400, 'HankenGrotesk-Regular'),
+);
+@include set-font-face($hanken-font-list, $hanken-font, '/fonts/hanken-grotesk');
